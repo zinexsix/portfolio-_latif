@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f5f9fa;
+  --surface: #ffffff;
+  --foreground: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --accent-foreground: #ffffff;
+  --accent-soft: #2563eb14;
+  --accent-2: #14b8a6;
+  --accent-2-soft: #14b8a61a;
+}
+
+.dark {
+  --background: #0b1220;
+  --surface: #131b2e;
+  --foreground: #f1f5f9;
+  --muted: #94a3b8;
+  --border: #ffffff1a;
+  --accent: #5b9dff;
+  --accent-foreground: #0b1220;
+  --accent-soft: #5b9dff26;
+  --accent-2: #2dd4bf;
+  --accent-2-soft: #2dd4bf26;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-2: var(--accent-2);
+  --color-accent-2-soft: var(--accent-2-soft);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-fraunces);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes blob-float {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(24px, -32px) scale(1.08);
+  }
+  66% {
+    transform: translate(-18px, 18px) scale(0.95);
+  }
+}
+
+.animate-blob {
+  animation: blob-float 14s ease-in-out infinite;
+}
+
+.animation-delay-3000 {
+  animation-delay: 3s;
 }
