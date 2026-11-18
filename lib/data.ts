@@ -15,7 +15,7 @@ export const site = {
 
 export const socials = [
   { name: "GitHub", href: "https://github.com/zinexsix", icon: "github" },
-  { name: "LinkedIn", href: "https://linkedin.com/in/username", icon: "linkedin" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/muhammad-khairul-umardi-latif-7b2b5b43b/", icon: "linkedin" },
   { name: "Instagram", href: "https://instagram.com/mhdlatif._", icon: "instagram" },
   { name: "YouTube", href: "https://www.youtube.com/@muhammadkhairulumardilatif", icon: "youtube" },
 ] as const;
