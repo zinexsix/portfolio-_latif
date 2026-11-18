@@ -36,9 +36,9 @@ export function Hero() {
 
         <Reveal delay={0.2}>
           <p className="mt-5 max-w-lg text-balance text-sm leading-6 text-muted sm:text-base">
-            {site.university}, {site.program}. Fokus membangun website yang
-            rapi, cepat, dan enak dipakai — sekaligus mendesain antarmuka
-            yang ramah pengguna.
+            {site.university}, {site.program}. Fokus membangun sisi server
+            aplikasi web — REST API, logika bisnis, dan basis data yang
+            andal, aman, dan mudah dikembangkan.
           </p>
         </Reveal>
 

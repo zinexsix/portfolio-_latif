@@ -23,8 +23,8 @@ export function Cta() {
           </h2>
           <p className="relative mx-auto mt-3 max-w-md text-sm leading-6 text-muted">
             Yuk diskusikan kebutuhan Anda — saya terbuka untuk kolaborasi
-            proyek, baik individu maupun tim, di bidang web development
-            maupun UI/UX design. Saya juga berpengalaman bekerja sama dalam
+            proyek, baik individu maupun tim, di bidang backend development,
+            REST API, maupun basis data. Saya juga berpengalaman bekerja sama dalam
             tim pengembangan.
           </p>
           <motion.a

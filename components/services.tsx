@@ -14,8 +14,8 @@ export function Services() {
             Services
           </h2>
           <p className="mt-3 text-sm leading-6 text-muted">
-            Beberapa layanan yang bisa saya bantu kerjakan, dari pengembangan
-            website hingga desain antarmuka.
+            Beberapa layanan yang bisa saya bantu kerjakan, dari perancangan
+            basis data hingga pembangunan REST API.
           </p>
         </Reveal>
 

@@ -8,6 +8,11 @@ import {
   Share2,
   BookOpen,
   Sparkles,
+  Server,
+  Database,
+  Plug,
+  ShieldCheck,
+  Container,
   type LucideIcon,
 } from "lucide-react";
 import { FaGithub, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa6";
@@ -25,6 +30,8 @@ import {
   SiFigma,
   SiGit,
   SiWordpress,
+  SiNestjs,
+  SiDocker,
 } from "react-icons/si";
 import type { IconType } from "react-icons";
 
@@ -38,6 +45,11 @@ export const icons = {
   "share-2": Share2,
   "book-open": BookOpen,
   sparkles: Sparkles,
+  server: Server,
+  database: Database,
+  plug: Plug,
+  "shield-check": ShieldCheck,
+  container: Container,
 } satisfies Record<string, LucideIcon>;
 
 export const brandIcons = {
@@ -61,6 +73,8 @@ export const techIcons = {
   figma: SiFigma,
   git: SiGit,
   wordpress: SiWordpress,
+  nestjs: SiNestjs,
+  docker: SiDocker,
 } satisfies Record<string, IconType>;
 
 export type IconName = keyof typeof icons;

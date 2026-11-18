@@ -32,7 +32,7 @@ export function About() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="mt-2 font-serif text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-              Bridging Design <span className="italic text-accent">and</span> Development
+              Building the Logic <span className="italic text-accent">Behind</span> the Screen
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
@@ -45,11 +45,19 @@ export function About() {
               </p>
               <p>
                 Saat di perkuliahan, saya mempelajari pemrograman, basis
-                data, UI/UX, serta pengembangan aplikasi berbasis web dan
-                mobile. Saya senang mempelajari teknologi baru, mampu
-                bekerja sama dalam tim, dan berkomitmen untuk terus
-                mengembangkan kemampuan agar dapat memberikan solusi
-                digital yang bermanfaat.
+                data, serta pengembangan aplikasi berbasis web dan mobile,
+                dengan fokus pada sisi backend: merancang basis data,
+                membangun REST API, dan menulis logika bisnis menggunakan
+                Laravel dan NestJS.
+              </p>
+              <p>
+                Dalam proyek yang saya kerjakan, saya membangun fitur seperti
+                sistem booking dan jadwal, pemrosesan pesanan dan pembayaran,
+                manajemen data pelanggan, autentikasi berbasis peran, serta
+                dashboard admin untuk memantau transaksi. Saya terbiasa
+                bekerja dalam tim menggunakan Scrum dan Git, dan terus
+                belajar menulis kode backend yang aman, terstruktur, dan
+                mudah dikembangkan.
               </p>
             </div>
           </Reveal>

@@ -16,7 +16,7 @@ export function Footer() {
           </h2>
           <p className="mt-3 text-sm leading-6 text-muted">
             Terbuka untuk diskusi seputar proyek, kolaborasi, atau sekadar
-            berbincang soal web development &amp; design.
+            berbincang soal backend development &amp; API.
           </p>
         </Reveal>
 

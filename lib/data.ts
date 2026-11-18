@@ -1,10 +1,10 @@
 export const site = {
   name: "Muhammad Khairul Umardi Latif",
   shortName: "Latif",
-  role: "Pengembang Web & Desainer UI/UX ",
-  tagline: "Menjembatani Desain dan Pengembangan",
+  role: "Backend Developer & Pengembang API",
+  tagline: "Membangun Sistem yang Andal di Balik Layar",
   description:
-    "Portfolio Muhammad Khairul Umardi Latif — Mahasiswa D3 Manajemen Informatika, Politeknik Negeri Padang. Web Developer & UI/UX enthusiast yang fokus membangun produk digital yang rapi dan fungsional.",
+    "Portfolio Muhammad Khairul Umardi Latif — Mahasiswa D3 Manajemen Informatika, Politeknik Negeri Padang. Backend Developer yang fokus membangun REST API, logika bisnis, dan basis data yang andal menggunakan Laravel dan NestJS.",
   url: "https://latif-portfolio.vercel.app",
   location: "Padang, Sumatera Barat",
   phone: "+62 852-6528-4134",
@@ -38,7 +38,7 @@ export const experience = [
     title: "Mahasiswa D3 Manajemen Informatika",
     org: "Politeknik Negeri Padang",
     description:
-      "Fokus pada mata kuliah pemrograman web, basis data, dan desain antarmuka pengguna.",
+      "Fokus pada mata kuliah pemrograman web, basis data, dan pengembangan aplikasi sisi server.",
   },
 
   {
@@ -52,36 +52,46 @@ export const experience = [
 ] as const;
 
 export const workedWith = [
-  { name: "Next.js", icon: "nextjs" },
-  { name: "React", icon: "react", color: "#61DAFB" },
-  { name: "Tailwind CSS", icon: "tailwindcss", color: "#38BDF8" },
-  { name: "Figma", icon: "figma", color: "#F24E1E" },
-  { name: "TypeScript", icon: "typescript", color: "#3178C6" },
   { name: "Laravel", icon: "laravel", color: "#FF2D20" },
-  { name: "WordPress", icon: "wordpress", color: "#21759B" },
+  { name: "PHP", icon: "php", color: "#777BB4" },
+  { name: "NestJS", icon: "nestjs", color: "#E0234E" },
+  { name: "TypeScript", icon: "typescript", color: "#3178C6" },
+  { name: "MySQL", icon: "mysql", color: "#4479A1" },
+  { name: "Docker", icon: "docker", color: "#2496ED" },
   { name: "Git", icon: "git", color: "#F05032" },
+  { name: "React", icon: "react", color: "#61DAFB" },
 ] as const;
 
 export const services = [
   {
-    title: "Web Development",
-    description: "Membangun website modern, cepat, dan responsif menggunakan Next.js & React.",
-    icon: "code",
+    title: "Backend Development",
+    description: "Membangun logika bisnis dan sisi server aplikasi web menggunakan Laravel dan NestJS.",
+    icon: "server",
   },
   {
-    title: "UI/UX Design",
-    description: "Merancang antarmuka yang intuitif mulai dari wireframe hingga hi-fi prototype di Figma.",
-    icon: "palette",
+    title: "REST API",
+    description: "Merancang dan membangun REST API yang terstruktur, aman, dan mudah diintegrasikan dengan frontend maupun aplikasi mobile.",
+    icon: "plug",
   },
   {
-    title: "E-Commerce",
-    description: "Membangun toko online dengan sistem katalog, keranjang, dan pembayaran yang mudah digunakan.",
+    title: "Database Design",
+    description: "Merancang skema basis data relasional, relasi tabel, dan query MySQL yang efisien.",
+    icon: "database",
+  },
+  {
+    title: "Autentikasi & Keamanan",
+    description: "Menerapkan login berbasis peran, validasi data, dan proteksi akses pada aplikasi.",
+    icon: "shield-check",
+  },
+  {
+    title: "Sistem Transaksi",
+    description: "Membangun alur pemesanan, pembayaran, dan laporan transaksi untuk aplikasi bisnis.",
     icon: "shopping-cart",
   },
   {
-    title: "Graphic Design",
-    description: "Mendesain aset visual seperti logo, poster, dan brand identity yang konsisten.",
-    icon: "brush",
+    title: "Deployment & Version Control",
+    description: "Mengelola kode dengan Git & GitHub serta menyiapkan lingkungan aplikasi menggunakan Docker.",
+    icon: "container",
   },
 ] as const;
 

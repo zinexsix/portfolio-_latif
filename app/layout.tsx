@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s — ${site.name}`,
   },
   description: site.description,
-  keywords: ["Web Developer", "UI/UX Design", "Portfolio", site.name],
+  keywords: ["Backend Developer", "Laravel", "NestJS", "REST API", "Portfolio", site.name],
   authors: [{ name: site.name, url: site.url }],
   openGraph: {
     title: `${site.name} — ${site.role}`,
