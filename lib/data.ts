@@ -17,7 +17,7 @@ export const socials = [
   { name: "GitHub", href: "https://github.com/username", icon: "github" },
   { name: "LinkedIn", href: "https://linkedin.com/in/username", icon: "linkedin" },
   { name: "Instagram", href: "https://instagram.com/mhdlatif._", icon: "instagram" },
-  { name: "YouTube", href: "https://youtube.com/@username", icon: "youtube" },
+  { name: "YouTube", href: "https://www.youtube.com/@muhammadkhairulumardilatif", icon: "youtube" },
 ] as const;
 
 export const navLinks = [
