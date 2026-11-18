@@ -12,9 +12,9 @@ export function About() {
             aria-hidden
             className="animate-blob pointer-events-none absolute -inset-4 -z-20 bg-gradient-to-br from-accent/10 to-accent-2/10 blur-2xl"
           />
-          <div className="relative aspect-[3/4] w-full overflow-hidden border border-border bg-surface">
+          <div className="relative aspect-[9/16] w-full overflow-hidden border border-border bg-surface">
             <Image
-              src="/profile.jpg"
+              src="/profile-latif.jpg"
               alt={site.name}
               fill
               className="object-cover object-center"
@@ -38,26 +38,25 @@ export function About() {
           <Reveal delay={0.2}>
             <div className="mt-4 space-y-3 text-sm leading-6 text-muted">
               <p>
-                Saya M. Khairul Umardi Latif, Mahasiswa Diploma Tiga (D3)
-                Manajemen Informatika dari Politeknik Negeri Padang. Saya
-                memiliki ketertarikan pada bidang pengembangan perangkat
-                lunak, pengembangan web, dan teknologi informasi.
+                Halo, saya Latif, mahasiswa D3 Manajemen Informatika,
+                Politeknik Negeri Padang, dengan fokus di bidang backend
+                development.
               </p>
               <p>
-                Saat di perkuliahan, saya mempelajari pemrograman, basis
-                data, serta pengembangan aplikasi berbasis web dan mobile,
-                dengan fokus pada sisi backend: merancang basis data,
-                membangun REST API, dan menulis logika bisnis menggunakan
-                Laravel dan NestJS.
+                Didorong oleh komitmen untuk terus belajar, ketekunan, dan
+                rasa tanggung jawab yang tinggi, saya memiliki semangat besar
+                dalam mempelajari teknologi terkini. Minat saya di bidang
+                rekayasa perangkat lunak meliputi backend development,
+                perancangan basis data, pembangunan REST API, autentikasi dan
+                keamanan aplikasi, serta deployment sistem.
               </p>
               <p>
-                Dalam proyek yang saya kerjakan, saya membangun fitur seperti
-                sistem booking dan jadwal, pemrosesan pesanan dan pembayaran,
-                manajemen data pelanggan, autentikasi berbasis peran, serta
-                dashboard admin untuk memantau transaksi. Saya terbiasa
-                bekerja dalam tim menggunakan Scrum dan Git, dan terus
-                belajar menulis kode backend yang aman, terstruktur, dan
-                mudah dikembangkan.
+                Pengalaman saya dalam berorganisasi juga dapat diterapkan di
+                dunia industri, karena saya terbiasa bekerja dalam tim serta
+                memimpin sebuah kegiatan. Dengan pendekatan proaktif dalam
+                memecahkan masalah dan dedikasi untuk selalu mengikuti
+                perkembangan industri, saya siap berkontribusi secara efektif
+                dalam proyek-proyek yang dinamis dan inovatif.
               </p>
             </div>
           </Reveal>
