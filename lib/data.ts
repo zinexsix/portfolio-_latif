@@ -155,6 +155,15 @@ export const certificateCategories: {
     ],
   },
   {
+    category: "Hackathon & Kompetisi",
+    items: [
+      {
+        title: "Finalis Top 10 - Play IT! PLUS Hackathon Deeptech 2026",
+        image: "/certificates/hackathon/play-it-plus-hackathon-2026.png",
+      },
+    ],
+  },
+  {
     category: "Java",
     items: [],
   },
