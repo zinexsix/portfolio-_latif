@@ -12,9 +12,9 @@ export function About() {
             aria-hidden
             className="animate-blob pointer-events-none absolute -inset-4 -z-20 bg-gradient-to-br from-accent/10 to-accent-2/10 blur-2xl"
           />
-          <div className="relative aspect-[9/16] w-full overflow-hidden border border-border bg-surface">
+          <div className="relative aspect-[3/4] w-full overflow-hidden border border-border bg-surface">
             <Image
-              src="/profile-latif.jpg"
+              src="/profile.jpg"
               alt={site.name}
               fill
               className="object-cover object-center"
